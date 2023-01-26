@@ -36,3 +36,7 @@ public class ProgramOne{
     
     }
 }
+
+/*git remote add origin https://github.com/EwuraAmaSam/Java-OOP.git
+PS C:\Users\nuthi\OneDrive\Desktop\OOP> git branch -M main
+PS C:\Users\nuthi\OneDrive\Desktop\OOP> git push -u origin main */

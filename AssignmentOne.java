@@ -52,8 +52,7 @@ public class AssignmentOne{
             
             while (pickOne < 1 || pickOne > (initStones/2))
             {
-                System.out.println(playerOne + ", please pick an appropriate number: ");
-    
+                System.out.print(playerOne + ", please pick an appropriate number: ");
                 pickOne = scan.nextInt();
             }
 
@@ -83,11 +82,5 @@ public class AssignmentOne{
             
             System.out.println(playerTwo + " wins.");
         }
-
-
-
-    
-
-
     }
 }
