@@ -13,6 +13,8 @@ public class ClassOne{
         int intNumber = 16;
         double doubleNum = 32;
         char character = 'O';
+        String isStud;
+        
 
         
         int numOne;
@@ -52,22 +54,45 @@ public class ClassOne{
         sum = numOne + numTwo;
         System.out.println("The sum is: " + sum);
 
+
+        // Essentials
         String productName;
         double productPrice;
         int productQuantity;
         double cost;
+        double discounted;
 
         System.out.print("Product name: ");
         productName = scan.nextLine();
+        scan.next();
+        System.out.println(" ");
 
         System.out.print("Price: ");
         productPrice = scan.nextDouble();
-
+        
         System.out.print("Quantity: ");
         productQuantity = scan.nextInt();
+        
+        // System.out.println("The cost is GHS " + cost);
+        
+        System.out.print("Are you a student? y/n: ");
+        isStud = scan.next();
+        scan.nextLine();
+        
+        if (isStud.equals("y"))
+        {
+            cost = productPrice * productQuantity;
+            discounted = cost - (0.25*cost);
+            System.out.println("The cost is: GHC" + discounted);
+        } 
+        
+        else{
+            cost = productPrice * productQuantity;
+            System.out.println("The cost is: GHC " + cost);
 
-        cost = productPrice * productQuantity;
-        System.out.println("The cost is GHS " + cost);
+        }
+
+
 
         scan.close();
     

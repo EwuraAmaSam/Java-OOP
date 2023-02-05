@@ -1,6 +1,7 @@
 import java.util.Scanner;
 public class ProgramTwo {
     public static void main(String[] args){
+
         // Declaring Variables
         int n;
         double totalPoints = 0;
@@ -60,6 +61,8 @@ public class ProgramTwo {
         GPA = totalPoints / totalCredits;
         System.out.println("You took " + totalCredits + " credits.");
         System.out.println("Your GPA is " + GPA);
+
+        keyboard.close();
 
 
 

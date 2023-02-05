@@ -43,7 +43,7 @@ public class AssignmentOne{
         
         // Prompting the user about the commencement of the game
         System.out.println(playerOne + " vs " + playerTwo);
-        System.out.println("The Game Begins!");
+        System.out.println("The Game Begins! (Please enter numbers only.)");
         System.out.println(" ");
 
         

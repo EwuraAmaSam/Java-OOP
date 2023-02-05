@@ -34,6 +34,7 @@ public class ProgramOne{
         System.out.println("Thank you!");
         System.out.println("You entered" + " " + even + " even numbers and " + odd + " odd numbers and " + zeros+ " " + "zeros.");
     
+        keyboard.close();
     }
 }
 
