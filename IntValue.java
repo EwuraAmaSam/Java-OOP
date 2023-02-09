@@ -1,5 +1,13 @@
 import java.util.Scanner;
 
+/**
+ * This class would have been useful for the assignment 1 such that,I could use it in 
+ * setting the rules. I would create multiple objects from this class for each of the codes.
+ * For example, an object could be created for the rule that the initial stones should be positive and odd.
+ * Again, another object could be created for the rule that a player cannot pick more than twice what
+ * the previous player took.
+ * This class would also allow for code reusability and easy debugging of the code.
+ **/
 class IntValue{
     Scanner keyboard = new Scanner(System.in);
     int minValue;
