@@ -16,10 +16,10 @@ public class Bad {
             }
         }
         if (num_bad != 0){
-            System.out.println("There are " + num_bad + " bad words in the sentence");
+            System.out.println("There are " + num_bad + " number of bad words in the sentence");
         }
         else{
-            System.out.println("There are no bad words.");
+            System.out.println("There are no bad words in the sentence.");
         }
     
     
